@@ -2,17 +2,41 @@
 *{
     padding:0px;
     margin:0px;
-    border:red dashed 1px;
 }
 /*This is the start of the webpage*/
 .wrapper{
     min-height:1000px;
     min-width:1000px;
-    background-color:silver;
+    background-color:white;
+    padding:10px;
 }
     /*Define the classes below*/
-    .class{
-        height:500px;
+    .search{
+        height:75px;
         width:500px;
-        margin:auto;
+        margin-left:25px;
+        margin-top:25px;
+    }
+        .type_here{
+            height:25px;
+            width:100px;
+        }
+        .search_box{
+            height:50px;
+            width:200px;
+            border-radius:5;
+            background-color:skyblue;
+            border:silver 2px solid;
+        }
+    .display{
+        height:300px;
+        width:500px;
+        margin-left:25px;
+    }
+    .clear{
+        height:50px;
+        width:200px;
+        border-radius:5;
+        background-color:darkred;
+        border:black 2px solid;
     }
